@@ -14,13 +14,11 @@ dependencies:
   - scipy
   - joblib
   - pip
-  - streamlit  # Installed via pip as it's more commonly updated there
   - notebook
   - plotly
   - ipykernel
-  - pandas-profiling
-  #- pip:
-    
-    #- phik=0.11.2
-    
-    #- pydantic-settings
+  -pip:
+    - streamlit  # Installed via pip as it's more commonly updated there    
+    #- pandas-profiling
+    - ydata-profiliing
+ 
