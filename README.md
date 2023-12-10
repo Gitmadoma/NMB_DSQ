@@ -6,3 +6,8 @@ models- the final model used for prediction.
 reports - the EDA report produced and an assumption file.
 src - contains the main app developed with streamlit.
 utils - helper functions for pre processing and preparing new data for inference.
+
+
+To get started
+
+RUN the conda env create -f enironment.yml file 
