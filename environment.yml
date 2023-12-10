@@ -1,4 +1,4 @@
-name: nmbcs-ml
+name: nmb-ml
 channels:
   - conda-forge
   - defaults
@@ -12,13 +12,13 @@ dependencies:
   - jupyter
   - jupyterlab
   - scipy
-  - joblib
-  - pip
+  - joblib  
+  - ipykernel
   - notebook
   - plotly
-  - ipykernel
-  -pip:
+  - pip
+  - pip:
     - streamlit  # Installed via pip as it's more commonly updated there    
-    #- pandas-profiling
-    - ydata-profiliing
+    - ydata-profiliing #- pandas-profiling
+    
  
